@@ -1,38 +1,45 @@
-<<<<<<< HEAD
 # MindBloom 🌱
 
-A beautiful, minimalist life tracker app built with Flutter. Track your sleep, mood, nutrition, and habits — all fully offline.
+A beautiful, minimalist life tracker app built with Flutter. Track your sleep, mood, nutrition, and habits in one clean and calming experience. [page:1]
+
+## Screenshots
+
+<p align="center">
+  <img src="./image.jpg" alt="MindBloom screenshot 1" width="250"/>
+  <img src="./image-2.jpg" alt="MindBloom screenshot 2" width="250"/>
+  <img src="./image-3.jpg" alt="MindBloom screenshot 3" width="250"/>
+</p>
 
 ## Features
 
-- 🛌 **Sleep Tracking** — Log bedtime, wake time, and sleep quality with weekly charts
-- 😊 **Mood Tracking** — Daily mood logging with emoji picker and 4-week calendar heatmap
-- 🥗 **Nutrition** — Meal logging and animated water intake tracker with daily goals
-- ✅ **Habits** — Custom habits with streak tracking and weekly status dots
-- 📊 **Dashboard** — Beautiful home screen with today's summary at a glance
+- 🛌 **Sleep Tracking** — Log bedtime, wake time, and sleep quality with weekly charts. [page:1]
+- 😊 **Mood Tracking** — Daily mood logging with an emoji picker and a 4-week calendar view. [page:1]
+- 🥗 **Nutrition** — Track meals and water intake with a simple, user-friendly interface. [page:1]
+- ✅ **Habits** — Create custom habits and monitor your consistency over time. [page:1]
+- 📊 **Dashboard** — View your daily wellness summary at a glance. [page:1]
 
 ## Design
 
-- Minimalist, nature-inspired color palette (forest greens, clean whites)
-- Google Fonts Inter typography
-- Smooth animations and transitions
-- Card-based UI with soft shadows
-- Swipe-to-delete on entries
+- Minimalist, nature-inspired color palette with clean and calming visuals. [page:1]
+- Google Fonts Inter typography for a polished look. [page:1]
+- Smooth animations and transitions. [page:1]
+- Card-based UI with soft shadows. [page:1]
+- Clean and intuitive layout for daily use. [page:1]
 
 ## Tech Stack
 
-- **Flutter** with Material 3
-- **Provider** for state management
-- **SQLite** (sqflite) for fully offline storage
-- **fl_chart** for data visualization
-- **Google Fonts** for premium typography
+- **Flutter** with Material 3. [page:1]
+- **Provider** for state management. [page:1]
+- **SQLite (sqflite)** for offline local storage. [page:1]
+- **fl_chart** for charts and visual insights. [page:1]
+- **Google Fonts** for typography. [page:1]
 
 ## Getting Started
 
 ### Prerequisites
 
-1. Install [Flutter SDK](https://docs.flutter.dev/get-started/install/windows)
-2. Add Flutter to your system PATH
+1. Install [Flutter SDK](https://docs.flutter.dev/get-started/install).
+2. Add Flutter to your system PATH.
 
 ### Setup
 
@@ -40,7 +47,7 @@ A beautiful, minimalist life tracker app built with Flutter. Track your sleep, m
 # Navigate to the project directory
 cd MindBloom
 
-# Generate platform folders (android, ios, web)
+# Generate platform folders
 flutter create --project-name mind_bloom --org com.mindbloom .
 
 # Install dependencies
@@ -50,61 +57,4 @@ flutter pub get
 flutter run
 ```
 
-> **Note**: The `flutter create .` command will generate the native platform directories (android/, ios/, web/) without overwriting your existing `lib/` code.
-
-### Run on specific platforms
-
-```bash
-# Android
-flutter run -d android
-
-# iOS (macOS only)
-flutter run -d ios
-
-# Web
-flutter run -d chrome
-
-# Windows
-flutter run -d windows
-```
-
-## Project Structure
-
-```
-lib/
-├── main.dart              # App entry point
-├── theme/
-│   └── app_theme.dart     # Colors, typography, component themes
-├── models/
-│   ├── sleep_entry.dart   # Sleep data model
-│   ├── mood_entry.dart    # Mood data model
-│   ├── meal_entry.dart    # Meal data model
-│   ├── water_entry.dart   # Water intake model
-│   └── habit.dart         # Habit + HabitLog models
-├── database/
-│   └── db_helper.dart     # SQLite database singleton
-├── providers/
-│   ├── sleep_provider.dart
-│   ├── mood_provider.dart
-│   ├── nutrition_provider.dart
-│   └── habit_provider.dart
-├── screens/
-│   ├── shell.dart          # Bottom navigation shell
-│   ├── home_screen.dart    # Dashboard
-│   ├── sleep_screen.dart   # Sleep tracker
-│   ├── mood_screen.dart    # Mood tracker
-│   ├── nutrition_screen.dart # Nutrition + water
-│   └── habits_screen.dart  # Habit tracker
-├── widgets/
-│   └── stat_card.dart      # Reusable stat card
-└── utils/
-    └── date_utils.dart     # Date formatting helpers
-```
-
-## License
-
-This project is for personal use.
-=======
-# MindBloom
-MindBloom – Mental Well-Being Tracker — Flutter, Firebase, Dart, AI/ML.
->>>>>>> c2a2eb805f2f0ab7416b1f5e3718b426fa9c6c12
+> **Note:** Running `flutter create .` generates the native platform folders without overwriting your existing `lib/` code. [page:1]
