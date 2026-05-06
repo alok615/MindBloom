@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MindBloom 🌱
 
 A beautiful, minimalist life tracker app built with Flutter. Track your sleep, mood, nutrition, and habits — all fully offline.
@@ -103,3 +104,7 @@ lib/
 ## License
 
 This project is for personal use.
+=======
+# MindBloom
+MindBloom – Mental Well-Being Tracker — Flutter, Firebase, Dart, AI/ML.
+>>>>>>> c2a2eb805f2f0ab7416b1f5e3718b426fa9c6c12
